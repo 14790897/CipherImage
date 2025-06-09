@@ -4,6 +4,8 @@
 
 一个基于密钥的图像隐写工具，用于在图像中安全地隐藏和提取文本信息。使用LSB（最低有效位）隐写技术和伪随机密钥系统，确保隐藏信息的安全性。
 
+> ⭐ **如果这个项目对您有帮助，请给我们一个Star！** [GitHub仓库](https://github.com/14790897/CipherImage)
+
 ## ✨ 特性
 
 - 🔐 **基于密钥的安全隐写**：使用自定义密钥控制隐写位置，增强安全性
@@ -24,7 +26,7 @@
 
 1. 克隆项目
 ```bash
-git clone https://github.com/your-username/CipherImage.git
+git clone https://github.com/14790897/CipherImage.git
 cd CipherImage
 ```
 
@@ -158,7 +160,7 @@ pnpm export
 2. 在Vercel中导入项目
 3. 自动部署完成
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/CipherImage)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/14790897/CipherImage)
 
 ## ⚠️ 安全须知
 
@@ -171,11 +173,13 @@ pnpm export
 
 欢迎贡献代码！请按照以下步骤：
 
-1. Fork 项目
+1. Fork 项目 [GitHub仓库](https://github.com/14790897/CipherImage)
 2. 创建功能分支 (`git checkout -b feature/AmazingFeature`)
 3. 提交更改 (`git commit -m 'Add some AmazingFeature'`)
 4. 推送到分支 (`git push origin feature/AmazingFeature`)
 5. 提交Pull Request
+
+> 💡 **贡献前别忘了给项目点个Star哦！** ⭐
 
 ## 📄 许可证
 
@@ -197,4 +201,6 @@ A: 隐藏文本的长度取决于图片的像素数量，一般情况下一个�
 
 ---
 
-⭐ 如果这个项目对您有帮助，请给我们一个Star！
+⭐ **如果这个项目对您有帮助，请访问 [GitHub仓库](https://github.com/14790897/CipherImage) 给我们一个Star！**
+
+您的支持是我们持续改进的动力！🚀

@@ -94,6 +94,17 @@ export default function SteganographyTool() {
         <div className="text-center mb-8">
           <h1 className="text-4xl font-bold text-gray-900 mb-2">密钥图片隐写工具</h1>
           <p className="text-gray-600">安全地在图片中隐藏和提取文本信息</p>
+          <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground">
+            <span>⭐ 喜欢这个项目？</span>
+            <a
+              href="https://github.com/14790897/CipherImage"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 underline font-medium"
+            >
+              给我GitHub点个Star吧！
+            </a>
+          </div>
         </div>
 
         <Card className="mb-6">
