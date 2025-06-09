@@ -23,24 +23,24 @@
 ### 安装步骤
 
 1. 克隆项目
-```bash
+\`\`\`bash
 git clone https://github.com/your-username/CipherImage.git
 cd CipherImage
-```
+\`\`\`
 
 2. 安装依赖
-```bash
+\`\`\`bash
 pnpm install
 # 或
 npm install
-```
+\`\`\`
 
 3. 启动开发服务器
-```bash
+\`\`\`bash
 pnpm dev
 # 或
 npm run dev
-```
+\`\`\`
 
 4. 打开浏览器访问 [http://localhost:3000](http://localhost:3000)
 
@@ -82,7 +82,7 @@ npm run dev
 
 ## 📁 项目结构
 
-```text
+\`\`\`text
 CipherImage/
 ├── app/                    # Next.js 应用目录
 │   ├── globals.css        # 全局样式
@@ -98,7 +98,7 @@ CipherImage/
 │   └── utils.ts          # 通用工具函数
 ├── public/               # 静态资源
 └── styles/               # 样式文件
-```
+\`\`\`
 
 ## 🛠️ 技术栈
 
@@ -113,17 +113,17 @@ CipherImage/
 
 ### 隐写函数
 
-```typescript
+\`\`\`typescript
 // 将文本嵌入图片
 embedTextInImage(imageData: ImageData, secretText: string, key: string): ImageData
 
 // 从图片中提取文本
 extractTextFromImage(imageData: ImageData, key: string): string
-```
+\`\`\`
 
 ### 图像处理工具
 
-```typescript
+\`\`\`typescript
 // 文件转ImageData
 fileToImageData(file: File): Promise<ImageData>
 
@@ -132,23 +132,23 @@ imageDataToBlob(imageData: ImageData): Promise<Blob>
 
 // 下载文件
 downloadFile(blob: Blob, filename: string): void
-```
+\`\`\`
 
 ## 📋 构建与部署
 
 ### 生产构建
 
-```bash
+\`\`\`bash
 pnpm build
 pnpm start
-```
+\`\`\`
 
 ### 静态导出
 
-```bash
+\`\`\`bash
 pnpm build
 pnpm export
-```
+\`\`\`
 
 ### Vercel部署
 
