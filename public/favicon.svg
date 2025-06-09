@@ -1,0 +1,17 @@
+<!-- filepath: c:\git-program\CipherImage\public\favicon.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+    <!-- 图片框架 -->
+    <rect x="2" y="3" width="12" height="9" fill="#4f46e5" stroke="#1e1b4b" stroke-width="0.5"
+        rx="1" />
+
+    <!-- 图片内容 - 简化山峰 -->
+    <polygon points="3,10 6,7 8,9 11,6 13,8 13,11 3,11" fill="#ffffff" />
+
+    <!-- 隐藏数据点 -->
+    <circle cx="5" cy="8" r="0.3" fill="#00ff00" />
+    <circle cx="9" cy="9" r="0.3" fill="#00ff00" />
+
+    <!-- 锁图标 -->
+    <rect x="6" y="13" width="4" height="2" fill="#1f2937" rx="0.5" />
+    <path d="M7 13v-1a1 1 0 0 1 2 0v1" stroke="#1f2937" stroke-width="0.5" fill="none" />
+  </svg>
